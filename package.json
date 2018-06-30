@@ -1,0 +1,31 @@
+{
+  "name": "G-and-L-Poet-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricGomez101/G-and-L-Poet-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricGomez101/G-and-L-Poet-backend/issues"
+  },
+  "homepage": "https://github.com/EricGomez101/G-and-L-Poet-backend#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongoose": "^5.1.7"
+  }
+}
